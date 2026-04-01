@@ -89,6 +89,5 @@ Kết quả trả về: Một danh sách các video kèm theo Timestamp (mốc t
 Giao diện: Player hiển thị video và tự động nhảy đến phân đoạn khớp nhất với mô tả.
 
 # Data Train
-https://huggingface.co/datasets/friedrichor/MSVD/viewer/default/train?row=0
 
 https://huggingface.co/datasets/friedrichor/MSR-VTT
