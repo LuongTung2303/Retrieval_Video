@@ -35,3 +35,10 @@ class HybridMilvusDatabase:
             index_params=index_params
         )
         print(f"Khởi tạo thành công Collection: {collection_name}!")
+        
+    # --- PHẦN BẠN CẦN THÊM VÀO ---
+    def insert_data(self, collection_name, data):
+        """
+        data: list các dictionary có các key khớp với schema
+        """
+        return self.client.insert(collection_name=collection_name, data=data)
